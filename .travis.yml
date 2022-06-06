@@ -5,3 +5,4 @@ before_install:
   - docker build -t siddugeneral/docker-react -f Dockerfile.dev .
 script:
   - docker run siddugeneral/docker-react npm run test -- --coverage
+  
